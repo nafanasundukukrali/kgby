@@ -2,52 +2,28 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta id="numbers" lang="ru" content="Рандомайзер для мафии">
+<meta id="numbers" lang="ru">
 <link rel="stylesheet" href="style.css">
-<title>Рандомайзер для мафии</title>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@523;800&display=swap" rel="stylesheet">
 <script src="script.js"></script>
 
 </head>
+  <header>
+    <h1>Калькулятор КБЖУ и ККАЛ для CrossPack</h1>
+  </header>
   <body id = "body">
-      <div id = "back">
-      <div id = "ramka">
-          <h1>Рандомайзер для Мафии</h1>
-      </div>
+    <h2>Меню</h2>
+    <div id = "body_food_block">
+      <h3>Супы</h3>
+      <div id = "body_one_element">
 
-      <div id = "ramka">
-        <p>Задайте каждому участнику игры порядковый номер и заполните следующую форму.</p>
       </div>
-      
-      <form name="Sel1" id="ramka">
+      <div id = "body_one_element">
 
-        <table>
-          <tr><td><b>Количество игроков:<b></td>
-            <td><input type="text" id= "Players" class="form-control" size=20 value=0 onFocus="this.select()"></td></tr>
-          <tr><td><b>Количество мафий:<b></td>
-            <td><input type="text" id="Mafias" class="form-control" size=20 value=0 onFocus="this.select()"></td></tr>
-          <tr><td><b>Количество комиссаров:<b></td>
-            <td><input type="text" id="Commissioners" size=20 value=0 onFocus="this.select()"></td></tr>
-          <tr><td><b>Количество докторов:<b></td>
-            <td><input type="text" id="Doctors" size=20 value=0 onFocus="this.select()"></td></tr>
-          <tr><td><b>Количество маньяков:<b></td>
-              <td><input type="text" id="Maniacs" size=20 value=0 onFocus="this.select()"></td></tr>
-          <tr><td><b>Количество любовниц:<b></td>
-              <td><input type="text" id="Mistresses" size=20 value=0 onFocus="this.select()"></td></tr>
-          <tr><td><b>Количество мстителей:<b></td>
-              <td><input type="text" id="Avengers" size=20 value=0 onFocus="this.select()"></td></tr>
-          </table>
+      </div>
+      <div id = "body_one_element">
 
-        <input type="button" id = "buttom" value="Готово" onClick="Complete();">
-        <input type="reset" id = "buttom" value="Сброс">
-      </form>
-      
-      <div id = "ramka">
-          <b id = "outputvalue"></b>
       </div>
-      <div id = "ramka_footer">
-        <h4>То, что здесь всё оранжевое - ничего не значит ¯\_(ツ)_/¯</h4>
-      </div>
-      </div>
+    </div>
   </body>
 </html>
