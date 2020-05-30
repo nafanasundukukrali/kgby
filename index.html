@@ -4,26 +4,227 @@
 <meta charset="UTF-8">
 <meta id="numbers" lang="ru">
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@523;800&display=swap" rel="stylesheet">
-<script src="script.js"></script>
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </head>
-  <header>
-    <h1>Калькулятор КБЖУ и ККАЛ для CrossPack</h1>
-  </header>
-  <body id = "body">
-    <h2>Меню</h2>
-    <div id = "body_food_block">
-      <h3>Супы</h3>
-      <div id = "body_one_element">
-
+  <body class = "body">
+    
+    <main class = "main">
+      <div class = "h2">
+        <h2>Меню</h2>
       </div>
-      <div id = "body_one_element">
-
+      <div class = "box">
+          <div class = "h3">
+            <h3>Завтраки</h3>
+          </div>
+          <div class = "box_one_element">
+              <div class="h3_in_box">
+                <h3>Каша из овсяных хлопьев с кусочками яблока, 200гр.</h3>
+              </div>
+              <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/3ad/350_350_1/3ada099f493c7bdeaf09016ae679b253.jpg" />
+              <h3 id="sales">37 руб</h3>
+              <div class="discription">
+                <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+                <p style="color: black;">Ккал: 206</p>
+                <p style="color: black;">Белки: 8</p>
+                <p style="color: black; ">Жиры: 7,8</p>
+                <p style="color: black; ">Углеводы: 25,4</p>
+              </div>
+              <div class="number">
+                <span class="minus">‒ </span>
+                <input type="text" value="0" size="5" class="boxes" id = "ind_0"/>
+                <span class="plus"> +</span>
+            </div>
+          </div>
+          <div class = "box_one_element">
+            <div class="h3_in_box">
+              <h3>Блинчики с курицей и грибами, 140гр.</h3>
+            </div>
+            <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/942/350_350_1/9428dfa22bf7cfae072b5d9f2e146e0b.jpg" />
+            <h3 id="sales">50 руб</h3>
+            <div class="discription">
+              <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+              <p style="color: black;">Ккал: 385</p>
+              <p style="color: black;">Белки: 17</p>
+              <p style="color: black; ">Жиры: 18,6</p>
+              <p style="color: black; ">Углеводы: 37,4</p>
+            </div>
+            <div class="number">
+              <span class="minus">‒ </span>
+              <input type="text" value="0" size="5" class="boxes" id = "ind_1"/>
+              <span class="plus"> +</span>
+          </div>
+        </div>
+          <div class = "box_one_element">
+            <div class="h3_in_box">
+              <h3>Блинчики с ветчиной и сыром, 140 гр.</h3>
+            </div>
+            <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/b6d/350_350_1/b6d1ec3a330c43f8b2852b6f3666e369.jpg" />
+            <h3 id="sales">50 руб</h3>
+            <div class="discription">
+              <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+              <p style="color: black;">Ккал: 364</p>
+              <p style="color: black;">Белки: 14</p>
+              <p style="color: black; ">Жиры: 16,8</p>
+              <p style="color: black; ">Углеводы: 37,8</p>
+            </div>
+            <div class="number">
+              <span class="minus">‒ </span>
+              <input type="text" value="0" size="5" class="boxes" id = "ind_2"/>
+              <span class="plus"> +</span>
+          </div>
+        </div>
+        <div class = "box_one_element">
+          <div class="h3_in_box">
+            <h3>Блинчики с творогом, 140гр.</h3>
+          </div>
+          <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/782/350_350_1/782e084979687978d00d82e86a7e0f65.jpg" />
+          <h3 id="sales">50 руб</h3>
+          <div class="discription">
+            <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+            <p style="color: black;">Ккал: 196</p>
+            <p style="color: black;">Белки: 7</p>
+            <p style="color: black; ">Жиры: 4,2</p>
+            <p style="color: black; ">Углеводы: 30,8</p>
+          </div>
+          <div class="number">
+            <span class="minus">‒ </span>
+            <input type="text" value="0" size="5" class="boxes" id = "ind_3"/>
+            <span class="plus"> +</span>
+        </div>
       </div>
-      <div id = "body_one_element">
-
+      <div class = "box_one_element">
+        <div class="h3_in_box">
+          <h3>Сырники, 150гр.</h3>
+        </div>
+        <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/cee/350_350_1/cee88e170f0abdaf327c526afa54da1f.jpg" />
+        <h3 id="sales">50 руб</h3>
+        <div class="discription">
+          <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+          <p style="color: black;">Ккал: 345</p>
+          <p style="color: black;">Белки: 10</p>
+          <p style="color: black; ">Жиры: 7,1</p>
+          <p style="color: black; ">Углеводы: 59,9</p>
+        </div>
+        <div class="number">
+          <span class="minus">‒ </span>
+          <input type="text" value="0" size="5" class="boxes" id = "ind_4"/>
+          <span class="plus"> +</span>
+      </div>
+      </div>
+      <div class = "box_one_element">
+        <div class="h3_in_box">
+          <h3>Сэндвич с ветчиной и сыром, 130гр.</h3>
+        </div>
+        <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/258/350_350_1/258d52a4806264a3af45f3d7665f4218.jpg" />
+        <h3 id="sales">57 руб</h3>
+        <div class="discription">
+          <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+          <p style="color: black;">Ккал: 410</p>
+          <p style="color: black;">Белки: 19</p>
+          <p style="color: black; ">Жиры: 16,3</p>
+          <p style="color: black; ">Углеводы: 39,7</p>
+        </div>
+        <div class="number">
+          <span class="minus">‒ </span>
+          <input type="text" value="0" size="5" class="boxes" id = "ind_5"/>
+          <span class="plus"> +</span>
+      </div>
+      </div>
+      <div class = "box_one_element">
+        <div class="h3_in_box">
+          <h3>Сэндвич с курицей и сыром, 130гр.</h3>
+        </div>
+        <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/dca/350_350_1/dca7e81af2d2920f507688003dd81c9b.jpg" />
+        <h3 id="sales">57 руб</h3>
+        <div class="discription">
+          <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+          <p style="color: black;">Ккал: 429</p>
+          <p style="color: black;">Белки: 25</p>
+          <p style="color: black; ">Жиры: 18,6</p>
+          <p style="color: black; ">Углеводы: 41,1</p>
+        </div>
+        <div class="number">
+          <span class="minus">‒ </span>
+          <input type="text" value="0" size="5" class="boxes" id = "ind_6"/>
+          <span class="plus"> +</span>
+      </div>
+      </div>
+      <div class = "box_one_element">
+        <div class="h3_in_box">
+          <h3>Блинчики с лососем, 150гр.</h3>
+        </div>
+        <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/f24/350_350_1/f24179b2cf7c448042ff0a04461ec6b5.jpg" />
+        <h3 id="sales">114 руб</h3>
+        <div class="discription">
+          <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+          <p style="color: black;">Ккал: 345</p>
+          <p style="color: black;">Белки: 15</p>
+          <p style="color: black; ">Жиры: 16,5</p>
+          <p style="color: black; ">Углеводы: 34,5</p>
+        </div>
+        <div class="number">
+          <span class="minus">‒ </span>
+          <input type="text" value="0" size="5" class="boxes" id = "ind_7"/>
+          <span class="plus"> +</span>
+      </div>
+      </div>
+      <div class = "box_one_element">
+        <div class="h3_in_box">
+          <h3>Ролл-сэндвич с птицей Цезарь, 200гр.</h3>
+        </div>
+        <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/6ba/350_350_1/6baeecf40a02ab4061ccc280729717eb.jpg" />
+        <h3 id="sales">114 руб</h3>
+        <div class="discription">
+          <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+          <p style="color: black;">Ккал: 380</p>
+          <p style="color: black;">Белки: 10</p>
+          <p style="color: black; ">Жиры: 22,3</p>
+          <p style="color: black; ">Углеводы: 28,3</p>
+        </div>
+        <div class="number">
+          <span class="minus">‒ </span>
+          <input type="text" value="0" size="5" class="boxes" id = "ind_8"/>
+          <span class="plus"> +</span>
+      </div>
+      </div>
+      <div class = "box_one_element">
+        <div class="h3_in_box">
+          <h3>Вареники с картофелем, 160гр.</h3>
+        </div>
+        <img class="img" src="https://crosspack.ru/upload/resize_cache/iblock/2cd/350_350_1/2cd1307ef161e42e7079180a4b4ef4f4.jpg" />
+        <h3 id="sales">57 руб</h3>
+        <div class="discription">
+          <p style="color: black;">КБЖУ и ККАЛ на 1 порцию:</p>
+          <p style="color: black;">Ккал: 336</p>
+          <p style="color: black;">Белки: 8</p>
+          <p style="color: black; ">Жиры: 9,6</p>
+          <p style="color: black; ">Углеводы: 52,8</p>
+        </div>
+        <div class="number">
+          <span class="minus">‒ </span>
+          <input type="text" value="0" size="5" class="boxes" id = "ind_9"/>
+          <span class="plus"> +</span>
+      </div>
       </div>
     </div>
+    </div>
+     </div>
+     <footer class = "footer">
+      <buttom class="btn-primary" onclick="window.location.reload();"><h2>Очистить</h2></buttom>
+      <buttom id = "on" class="btn-primary" onclick="getvallues();"><h2>Итог</h2></buttom>
+      <div id="disklmr">
+
+      </div>
+      <div id="final">
+        <h3 id="Fi" style="margin-top: 1rem;"></h3>
+        <h3 id="Sum_cost"></h3>
+        <h3 id="Sum_kkal"></h3>
+        <h3 id="Sum_B"></h3>
+        <h3 id="Sum_Zh"></h3>
+        <h3 id="Sum_U" style="margin-bottom: 1rem;"></h3>
+      </div>
+    </footer>
+    </main>
   </body>
 </html>
